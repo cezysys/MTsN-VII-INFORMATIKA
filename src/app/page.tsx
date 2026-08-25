@@ -212,7 +212,7 @@ export default function Home() {
             Portal Resmi Kelas MTsN 1 Makassar
           </span>
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mt-4 bg-gradient-to-b from-white to-neutral-500 bg-clip-text text-transparent">
-            7. Informatika.
+            VII-INFORMATIKA.
           </h1>
           <p className="mt-6 text-lg text-neutral-400 max-w-2xl mx-auto font-light">
             Ruang digital terpadu untuk koordinasi, jadwal pelajaran, album kenangan, dan informasi kelas kita.
@@ -257,7 +257,7 @@ export default function Home() {
       <section id="members" className="py-20 px-6 max-w-6xl mx-auto border-t border-white/10">
         <div className="mb-12 text-center md:text-left">
           <h2 className="text-3xl font-bold tracking-tight">Pengurus Kelas</h2>
-          <p className="text-neutral-400 text-sm mt-2">Struktur organisasi resmi 7. Informatika</p>
+          <p className="text-neutral-400 text-sm mt-2">Struktur organisasi resmi VII-INFORMATIKA</p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -615,7 +615,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="border-t border-white/10 py-8 text-center text-xs text-neutral-600">
-        <p>© 2026 MTsN 1 Makassar • 7. Informatika. Designed with Apple Aesthetics.</p>
+        <p>© 2026 MTsN 1 Makassar • VII-INFORMATIKA . Designed with Apple Aesthetics.</p>
       </footer>
     </main>
   );
