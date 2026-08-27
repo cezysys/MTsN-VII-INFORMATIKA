@@ -213,6 +213,7 @@ export default function Home() {
           </span>
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mt-4 bg-gradient-to-b from-white to-neutral-500 bg-clip-text text-transparent">
             VII-INFORMATIKA.
+            
           </h1>
           <p className="mt-6 text-lg text-neutral-400 max-w-2xl mx-auto font-light">
             Ruang digital terpadu untuk koordinasi, jadwal pelajaran, album kenangan, dan informasi kelas kita.
