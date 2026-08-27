@@ -93,27 +93,38 @@ export default function Home() {
 
   // State Album Kenangan ala iOS Photos
   const [albums, setAlbums] = useState<Album[]>([
-    {
-      id: "momen-kelas",
-      title: "Momen Kelas",
-      count: "0 Foto",
-      coverImage: "",
-      images: []
-    },
-    {
-      id: "kegiatan-sekolah",
-      title: "Kegiatan Sekolah",
-      count: "0 Foto",
-      coverImage: "",
-      images: []
-    },
-    {
-      id: "piket-bersama",
-      title: "Piket Bersama",
-      count: "0 Foto",
-      coverImage: "",
-      images: []
-    }
+   {
+    id: "momen-kelas",
+    title: "Momen Kelas",
+    count: "5 Foto",
+    coverImage: "/images/momen1.jpg",
+    images: [
+      "/images/momen1.jpg",
+      "/images/momen2.jpg",
+      "/images/momen3.jpg",
+      "/images/momen4.jpg",
+      "/images/momen5.jpg",
+    ],
+  },
+  {
+    id: "17-agustus",
+    title: "17 Agustus",
+    count: "2 Foto",
+    coverImage: "/images/agustus1.jpg",
+    images: [
+      "/images/agustus1.jpg",
+      "/images/agustus2.jpg",
+    ],
+  },
+  {
+    id: "gugus-4",
+    title: "GUGUS 4",
+    count: "1 Foto",
+    coverImage: "/images/gugus4.jpg",
+    images: [
+      "/images/gugus4.jpg",
+    ],
+  },
   ]);
   const [activeAlbum, setActiveAlbum] = useState<Album | null>(null);
   const [showAddAlbum, setShowAddAlbum] = useState(false);
